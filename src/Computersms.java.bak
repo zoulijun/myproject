@@ -1,0 +1,9 @@
+package com.mycode.zpc;
+public class Computersms
+{ 
+	public void Sava(Computer computer){
+	
+	
+	
+	}
+}

@@ -14,7 +14,7 @@ public class Computer
 		this.price = price;
 		this.colour = colour;
 		this.cpu = cpu;
-		this.system =system;
+		this.model =model;
 	
 	
 	
@@ -53,15 +53,15 @@ public class Computer
 	
 	}
 		public void setSystem(String model){
-		this.system = system;
+		this.model = model;
 
 	}
 	public String getsystem(String model){
-		return this.system;
+		return this.model;
 	
 	}
 	public String toString(){
-		System.out.println("电脑名:"+this.name+"价格为:"+this.price+"颜色为:"+this.colour+"cpu为"+this.cpu+"型号为:"+this.model);
+		return "电脑名:"+this.name+"价格为:"+this.price+"颜色为:"+this.colour+"cpu为"+this.cpu+"型号为:"+this.model;
 	
 	
 	}

@@ -4,17 +4,17 @@ public class Computer
 	private int price;
 	private String colour;
 	private String cpu;
-	private String system;
+	private String model;
 	public Computer(){
 	
 	
 	}
-	public Computer(String name,int price,String colour,String cpu,String system){
+	public Computer(String name,int price,String colour,String cpu,String model){
 		this.name = name;
 		this.price = price;
 		this.colour = colour;
 		this.cpu = cpu;
-		this.system =system;
+		this.model =model;
 	
 	
 	
@@ -52,16 +52,16 @@ public class Computer
 		return this.cpu;
 	
 	}
-		public void setSystem(String system){
-		this.system = system;
+		public void setSystem(String model){
+		this.model = model;
 
 	}
-	public String getsystem(String system){
-		return this.system;
+	public String getsystem(String model){
+		return this.model;
 	
 	}
 	public String toString(){
-		System.out.println("电脑名:"+this.name+"价格为:"+this.price+"颜色为:"+this.colour+"cpu为"+this.cpu+"系统为:"+this.system);
+		return System.out.println("电脑名:"+this.name+"价格为:"+this.price+"颜色为:"+this.colour+"cpu为"+this.cpu+"型号为:"+this.model);
 	
 	
 	}
